@@ -20,7 +20,7 @@ const Navbar =() => {
                 IsMenuOpen && (
                     <div className="bg-white rounded-lg drop-shadow-2xl absolute z-10 top-0 right-0 w-1/6 h-full flex flex-col justify-center items-center transition-all ease-in duration-300">
                         <Link className="m-3 border-b border-black hover:text-xl hover:border-slate-100"  to={'/'} >home </Link>
-                        <Link className="m-3 border-b border-black hover:text-xl hover:border-slate-100" to={"/Products"}>Productos</Link>
+                        <Link className="m-3 border-b border-black hover:text-xl hover:border-slate-100" to={"/Catalogo"}>Catalogo</Link>
                         <Link className="m-3 border-b border-black hover:text-xl hover:border-slate-100" to={'/Contact'}>Contact</Link>
                     </div>
                 )
